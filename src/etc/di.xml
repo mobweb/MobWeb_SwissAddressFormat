@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author    Louis Bataillard <info@mobweb.ch>
+ * @package    MobWeb_SwissAddressFormat
+ * @copyright    Copyright (c) MobWeb GmbH (https://mobweb.ch)
+ */
+-->
+<config>
+	<type name="Magento\Checkout\Block\Checkout\LayoutProcessor">
+		<plugin name="mobweb_checkout_checkout_layoutprocessor" type="\MobWeb\SwissAddressFormat\Plugin\Magento\Checkout\Block\Checkout\LayoutProcessor" sortOrder="1" disabled="false" />
+	</type>
+</config>

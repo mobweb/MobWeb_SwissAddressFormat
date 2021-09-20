@@ -1,0 +1,20 @@
+{
+    "name": "mobweb/swissaddressformat",
+    "description": "Format all addresses to match the format used in Switzerland.",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "MobWeb\\SwissAddressFormat\\": "src"
+        }
+    },
+    "version": "1.0.0"
+}
